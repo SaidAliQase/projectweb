@@ -1,0 +1,74 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/design.css')}}">
+
+<style type="text/css">
+	
+
+p{
+	color: blue;
+}	
+</style>
+
+</head>
+<body class="w3-light-grey">
+
+
+
+<img src="{{url_for('static', filename='images/image.jpeg')}}" height="250px" width="250px">
+
+<h1>First Day of HTML Class</h1>
+
+
+<h3>Hey, this is from HTML</h3>
+
+
+<p class="one"  >
+	This is a paragraph. This is a paragraphThis is a paragraphThis is a paragraph <br>
+	This is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraph
+</p>
+
+
+
+<p id="two" >
+	This is a paragraph. This is a paragraphThis is a paragraphThis is a paragraph <br>
+	This is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraph
+</p>
+
+
+<p class="w3-container">
+	This is a paragraph. This is a paragraphThis is a paragraphThis is a paragraph <br>
+	This is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraphThis is a paragraph
+</p>
+
+<button style="color: white; background-color: green; border: 2px solid green; text-align: center; ">Click here</button>
+
+<button class="btn btn-success">Click here</button>
+<button class="btn btn-danger">Click here</button>
+<button class="btn btn-info">Click here</button>
+<button class="btn btn-primary">Click here</button>
+
+
+<h2 >This is going to be used for external css styling approach</h2>
+
+
+<h1>THIS IS WITHOUT HAVING THE DEBUG=TRUE</h1>
+
+
+<h1>THIS IS WITHOUT HAVING THE DEBUG=TRUE</h1>
+</body>
+</html>
+{% endblock %}
+
+
+
+
